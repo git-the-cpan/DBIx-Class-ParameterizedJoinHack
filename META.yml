@@ -21,5 +21,5 @@ no_index:
 requires:
   DBIx::Class: '0'
   perl: '5.006'
-version: 0.001_001
+version: 0.001_002
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'

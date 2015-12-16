@@ -1,0 +1,8 @@
+0.001_002 - 2015-12-16
+  - Fix broken dist (Aaron Crane)
+
+0.001_001 - 2015-12-16
+  - Reimplement parameter localization (Aaron Crane)
+
+0.000001 - 2015-12-15
+  - Initial release.
