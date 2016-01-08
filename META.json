@@ -22,13 +22,14 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "SQL::Translator" : "0.11016",
             "Test::Fatal" : "0",
             "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "DBIx::Class" : "0.082820"
          }
       },
       "runtime" : {
@@ -39,6 +40,6 @@
       }
    },
    "release_status" : "testing",
-   "version" : "0.001_002",
+   "version" : "0.001_003",
    "x_serialization_backend" : "JSON::PP version 2.27203"
 }

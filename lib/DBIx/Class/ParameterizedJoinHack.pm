@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base qw(DBIx::Class);
 
-our $VERSION = '0.001_002'; # 0.1.2
+our $VERSION = '0.001_003'; # 0.1.3
 $VERSION = eval $VERSION;
 
 our $STORE = '_parameterized_join_hack_meta_info';

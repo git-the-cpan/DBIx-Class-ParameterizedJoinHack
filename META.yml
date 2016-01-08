@@ -3,10 +3,11 @@ abstract: 'Parameterized Relationship Joins'
 author:
   - 'Matt S. Trout <mst@shadowcat.co.uk>'
 build_requires:
+  SQL::Translator: '0.11016'
   Test::Fatal: '0'
   Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  DBIx::Class: '0.082820'
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.150005'
 license: unknown
@@ -21,5 +22,5 @@ no_index:
 requires:
   DBIx::Class: '0'
   perl: '5.006'
-version: 0.001_002
+version: 0.001_003
 x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
